@@ -1,0 +1,66 @@
+body {
+    font-family: helvetica;
+    color: black;
+    background-image: url(../images/marsEarth.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.shipParameterBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 250px);
+    grid-template-rows: 150px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.shipParameterSpeed,
+.shipParameterFuel,
+.shipParameterGforce,
+.shipParameterDistance {
+    background-color: white;
+    opacity: 0.5;
+    text-align: center;
+    width: 250px;
+    height: 150px;
+    margin: auto;
+}
+
+.icons {
+    max-width: 45px;
+    max-height: 45px;
+}
+
+.fuelStatus,
+.mph,
+.gforce,
+.km {
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.facts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.factsButton {
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+    width: 250px;
+    height: 70px;
+    opacity: 0.75;
+}
